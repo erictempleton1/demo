@@ -1,7 +1,8 @@
 <template>
-  <div id="app" class="page-container">
+  <div class="page-container">
       <nav-bar></nav-bar>
       <side-bar></side-bar>
+      <router-link :to="{ name: 'Networks' }">Networks</router-link>
   </div>
 </template>
 
